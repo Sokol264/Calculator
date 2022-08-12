@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="4.6.1"/>
+  <object class="GtkWindow" id="window_x">
+    <property name="can-focus">True</property>
+    <child>
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <property name="can-focus">True</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkEntry" id="entry_x">
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="button_update_x">
+            <property name="label" translatable="yes">Done</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
+
